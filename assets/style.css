@@ -5,14 +5,16 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6a8;
 }
 
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Helvetica, sans-serif;
     background-color: #7c2a61;
     color: #ffffff;
+    border-style: dashed;
+    border-color: black;
 }
 
 header h1 {
@@ -24,7 +26,7 @@ nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Helvetica, sans-serif, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -47,12 +49,10 @@ p {
 }
 
 .math {
-    height: 300px;
+    height: 260px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     background-image: url("./math-pic.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 section {
@@ -75,8 +75,15 @@ section {
     font-size: 36px;
 }
 
+#About-Me {
+    border-style: dashed;
+    border-color: black;
+}
+
 #Projects {
     height: 375px;
+    border-style: dashed;
+    border-color: black;
 }
 
 .icon {
@@ -90,8 +97,9 @@ section {
 }
 
 .icon img {
-height: 150px;
-width: 150px;
+    height: 150px;
+    width: 150px;
+    border-style: groove;
 }
 
 aside {
@@ -103,12 +111,14 @@ aside {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #7c2a61;
+    border-style: dashed;
 }
 
 aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    border-style: groove;
 }
 
 .Contact {
